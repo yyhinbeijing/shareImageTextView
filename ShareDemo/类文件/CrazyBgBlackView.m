@@ -30,13 +30,13 @@
     return self;
 }
 
-//-(void)tapView
-//{
-//   
-//    
-//    
-//    [self removeFromSuperview];
-//}
+-(void)tapView
+{
+   
+    
+    
+    [self removeFromSuperview];
+}
 
 - (instancetype)init
 {
@@ -61,7 +61,7 @@
 
 -(void)removeTap
 {
-//    [self removeGestureRecognizer:self.mTap];
+    [self removeGestureRecognizer:self.mTap];
 }
 
 -(void)setMPointType:(CrazyBgBlackViewPointType)mPointType

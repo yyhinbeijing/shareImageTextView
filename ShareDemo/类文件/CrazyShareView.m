@@ -23,7 +23,6 @@
         
         float height = 160;
         CrazyBasisView *view = [[CrazyBasisView alloc]initWithFrame:CGRectMake(0, SCREENHEIGHT, SCREENWIDTH, height)];
-        view.userInteractionEnabled = NO;
         view.tag = 1;
         view.backgroundColor = [UIColor whiteColor];
         float interval = 25;
@@ -47,7 +46,7 @@
         }
          __unsafe_unretained __typeof(self) weakSelf = self;
         [CrazyBasisButton buttonAddInView:view andFrame:CGRectMake((SCREENWIDTH - 100)/2, height - 30, 100, 20) andButtonTitleText:@"取消" andTextColor:C2 andBackGroundColor:nil andTextFont:H2 tapButtonBlock:^(CrazyBasisButton *button) {
-//            [weakSelf tapView];
+            [weakSelf tapView];
         }];
         
         
@@ -75,22 +74,22 @@
     });
 }
 
--(void)removeTap {
-//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-//        UIView *view = [self viewWithTag:1];
-//        
-//        
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            [UIView animateWithDuration:0.3 animations:^{
-//                view.transform = CGAffineTransformMakeTranslation(0, view.lz_height);
-//                self.alpha = 0;
-//            } completion:^(BOOL finished) {
-//                [self removeFromSuperview];
-//            }];
-//        });
-//    });
-
-}
+//-(void)removeTap {
+////    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+////        UIView *view = [self viewWithTag:1];
+////        
+////        
+////        dispatch_async(dispatch_get_main_queue(), ^{
+////            [UIView animateWithDuration:0.3 animations:^{
+////                view.transform = CGAffineTransformMakeTranslation(0, view.lz_height);
+////                self.alpha = 0;
+////            } completion:^(BOOL finished) {
+////                [self removeFromSuperview];
+////            }];
+////        });
+////    });
+//
+//}
 
 
 -(void)tapButton:(UIButton *)button

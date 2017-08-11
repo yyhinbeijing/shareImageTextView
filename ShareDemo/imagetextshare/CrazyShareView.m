@@ -27,7 +27,6 @@
         view.backgroundColor = [UIColor whiteColor];
         float interval = 25;
         float buttonWidth = 60;
-//        [view setContent:@"分享到" originY:10 algnment:1 height:20];
         
         NSArray *imageArray = @[[UIImage imageNamed:@"weixin_"],[UIImage imageNamed:@"weixin_"],[UIImage imageNamed:@"pengyouquan_"],[UIImage imageNamed:@"lianjie_"]];
         NSArray *titleArray = @[@"图文分享",@"微信好友",@"微信朋友圈",@"复制链接"];
@@ -38,7 +37,6 @@
             [button setTitle:titleArray[i] forState:UIControlStateNormal];
             [button setTitleColor:C4 forState:UIControlStateNormal];
             button.frame = CGRectMake((SCREENWIDTH - buttonWidth * imageArray.count - interval * (imageArray.count - 1))/2 + i *(buttonWidth + interval), 48, buttonWidth, 70);
-//            [button setUpImageScale:0.5];
             [button addTarget:self action:@selector(tapButton:) forControlEvents:UIControlEventTouchUpInside];
             button.titleLabel.font = [UIFont systemFontOfSize:H2];
             button.tag = i;

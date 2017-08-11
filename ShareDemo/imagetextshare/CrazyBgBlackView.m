@@ -33,7 +33,7 @@
 -(void)tapView
 {
    
-    
+    NSLog(@"pirnt tapView");
     
     [self removeFromSuperview];
 }
@@ -61,7 +61,7 @@
 
 -(void)removeTap
 {
-    [self removeGestureRecognizer:self.mTap];
+//    [self removeGestureRecognizer:self.mTap];
 }
 
 -(void)setMPointType:(CrazyBgBlackViewPointType)mPointType

@@ -47,9 +47,7 @@
 		6E116EC01F3D626400798E43 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116EB91F3D626400798E43 /* NSArray+PureLayout.m */; };
 		6E116EC11F3D626400798E43 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116EBB1F3D626400798E43 /* NSLayoutConstraint+PureLayout.m */; };
 		6E116ED41F3D632600798E43 /* CrazyBasisFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116EC71F3D632600798E43 /* CrazyBasisFile.m */; };
-		6E116ED51F3D632600798E43 /* CrazyBgBlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116EC91F3D632600798E43 /* CrazyBgBlackView.m */; };
 		6E116ED61F3D632600798E43 /* CrazyShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116ECB1F3D632600798E43 /* CrazyShareModel.m */; };
-		6E116ED71F3D632600798E43 /* CrazyShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116ECD1F3D632600798E43 /* CrazyShareView.m */; };
 		6E116ED81F3D632600798E43 /* NSString+LZExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116ECF1F3D632600798E43 /* NSString+LZExt.m */; };
 		6E116ED91F3D632600798E43 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116ED11F3D632600798E43 /* UIColor+RGB.m */; };
 		6E116EDA1F3D632600798E43 /* UIImage+FileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116ED31F3D632600798E43 /* UIImage+FileName.m */; };
@@ -63,6 +61,8 @@
 		6EF40E991F3DAC570034BC37 /* tuwenfenxiang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF40E941F3DAC570034BC37 /* tuwenfenxiang@3x.png */; };
 		6EF40E9C1F3DAC810034BC37 /* UIButton+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF40E9B1F3DAC810034BC37 /* UIButton+Tool.m */; };
 		6EF40E9F1F3DAC9E0034BC37 /* UIView+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF40E9E1F3DAC9E0034BC37 /* UIView+Title.m */; };
+		6EF40EA41F3DBEAF0034BC37 /* CrazyBgBlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF40EA11F3DBEAF0034BC37 /* CrazyBgBlackView.m */; };
+		6EF40EA51F3DBEAF0034BC37 /* CrazyShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF40EA31F3DBEAF0034BC37 /* CrazyShareView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,12 +161,8 @@
 		6E116EBE1F3D626400798E43 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
 		6E116EC61F3D632600798E43 /* CrazyBasisFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyBasisFile.h; sourceTree = "<group>"; };
 		6E116EC71F3D632600798E43 /* CrazyBasisFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyBasisFile.m; sourceTree = "<group>"; };
-		6E116EC81F3D632600798E43 /* CrazyBgBlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyBgBlackView.h; sourceTree = "<group>"; };
-		6E116EC91F3D632600798E43 /* CrazyBgBlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyBgBlackView.m; sourceTree = "<group>"; };
 		6E116ECA1F3D632600798E43 /* CrazyShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyShareModel.h; sourceTree = "<group>"; };
 		6E116ECB1F3D632600798E43 /* CrazyShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyShareModel.m; sourceTree = "<group>"; };
-		6E116ECC1F3D632600798E43 /* CrazyShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyShareView.h; sourceTree = "<group>"; };
-		6E116ECD1F3D632600798E43 /* CrazyShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyShareView.m; sourceTree = "<group>"; };
 		6E116ECE1F3D632600798E43 /* NSString+LZExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LZExt.h"; sourceTree = "<group>"; };
 		6E116ECF1F3D632600798E43 /* NSString+LZExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZExt.m"; sourceTree = "<group>"; };
 		6E116ED01F3D632600798E43 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
@@ -189,6 +185,10 @@
 		6EF40E9B1F3DAC810034BC37 /* UIButton+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Tool.m"; sourceTree = "<group>"; };
 		6EF40E9D1F3DAC9E0034BC37 /* UIView+Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Title.h"; sourceTree = "<group>"; };
 		6EF40E9E1F3DAC9E0034BC37 /* UIView+Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Title.m"; sourceTree = "<group>"; };
+		6EF40EA01F3DBEAF0034BC37 /* CrazyBgBlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyBgBlackView.h; sourceTree = "<group>"; };
+		6EF40EA11F3DBEAF0034BC37 /* CrazyBgBlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyBgBlackView.m; sourceTree = "<group>"; };
+		6EF40EA21F3DBEAF0034BC37 /* CrazyShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyShareView.h; sourceTree = "<group>"; };
+		6EF40EA31F3DBEAF0034BC37 /* CrazyShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyShareView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,12 +395,8 @@
 				6E116EDC1F3D63EB00798E43 /* UIImage+ChangeColor.m */,
 				6E116EC61F3D632600798E43 /* CrazyBasisFile.h */,
 				6E116EC71F3D632600798E43 /* CrazyBasisFile.m */,
-				6E116EC81F3D632600798E43 /* CrazyBgBlackView.h */,
-				6E116EC91F3D632600798E43 /* CrazyBgBlackView.m */,
 				6E116ECA1F3D632600798E43 /* CrazyShareModel.h */,
 				6E116ECB1F3D632600798E43 /* CrazyShareModel.m */,
-				6E116ECC1F3D632600798E43 /* CrazyShareView.h */,
-				6E116ECD1F3D632600798E43 /* CrazyShareView.m */,
 				6E116ECE1F3D632600798E43 /* NSString+LZExt.h */,
 				6E116ECF1F3D632600798E43 /* NSString+LZExt.m */,
 				6E116ED01F3D632600798E43 /* UIColor+RGB.h */,
@@ -414,6 +410,10 @@
 		6EF40E8E1F3DAC570034BC37 /* imagetextshare */ = {
 			isa = PBXGroup;
 			children = (
+				6EF40EA01F3DBEAF0034BC37 /* CrazyBgBlackView.h */,
+				6EF40EA11F3DBEAF0034BC37 /* CrazyBgBlackView.m */,
+				6EF40EA21F3DBEAF0034BC37 /* CrazyShareView.h */,
+				6EF40EA31F3DBEAF0034BC37 /* CrazyShareView.m */,
 				6EF40E8F1F3DAC570034BC37 /* SKImageTextShareView.h */,
 				6EF40E901F3DAC570034BC37 /* SKImageTextShareView.m */,
 				6EF40E911F3DAC570034BC37 /* saveToPhotoAlbum@2x.png */,
@@ -581,11 +581,11 @@
 				6E116E1F1F3D5B4300798E43 /* AppDelegate.m in Sources */,
 				6E116EA11F3D61F300798E43 /* NSData+ImageContentType.m in Sources */,
 				6E116ED41F3D632600798E43 /* CrazyBasisFile.m in Sources */,
+				6EF40EA41F3DBEAF0034BC37 /* CrazyBgBlackView.m in Sources */,
 				6EF40E9C1F3DAC810034BC37 /* UIButton+Tool.m in Sources */,
 				6E116EAA1F3D61F300798E43 /* UIImage+GIF.m in Sources */,
 				6E116EA91F3D61F300798E43 /* UIButton+WebCache.m in Sources */,
 				6E116E7C1F3D61C300798E43 /* CrazyBasisImageView.m in Sources */,
-				6E116ED71F3D632600798E43 /* CrazyShareView.m in Sources */,
 				6E116EC11F3D626400798E43 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				6E116EA81F3D61F300798E43 /* SDWebImagePrefetcher.m in Sources */,
 				6E116ED61F3D632600798E43 /* CrazyShareModel.m in Sources */,
@@ -597,9 +597,9 @@
 				6E116EA31F3D61F300798E43 /* SDWebImageCompat.m in Sources */,
 				6E116EDA1F3D632600798E43 /* UIImage+FileName.m in Sources */,
 				6E116EDD1F3D63EB00798E43 /* UIImage+ChangeColor.m in Sources */,
-				6E116ED51F3D632600798E43 /* CrazyBgBlackView.m in Sources */,
 				6EF40E951F3DAC570034BC37 /* SKImageTextShareView.m in Sources */,
 				6E116E801F3D61C300798E43 /* CrazyBasisCell.m in Sources */,
+				6EF40EA51F3DBEAF0034BC37 /* CrazyShareView.m in Sources */,
 				6E116E7F1F3D61C300798E43 /* CrazyBasisView.m in Sources */,
 				6E116EBF1F3D626400798E43 /* ALView+PureLayout.m in Sources */,
 				6EF40E9F1F3DAC9E0034BC37 /* UIView+Title.m in Sources */,
